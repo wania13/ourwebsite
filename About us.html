@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Time new roman", sans-serif;
+    background-color:darkgrey;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+    .header {
+  overflow: hidden;
+  background-color: black;
+  padding: 2% 0%;
+  border-style: double;
+  border-color: darkgoldenrod;
+    
+}
+
+    .about-us{
+        position: relative;
+        left:43%;
+        top:10px;
+        text-align: center;
+        font-family:serif;
+        font-size: 50px;
+        color:palegoldenrod;
+        display: inline;
+    }
+    
+    .open-nav{
+        font-size:50px;
+        cursor:pointer;
+        color:darkgoldenrod;
+        float: left; 
+        position: relative;
+        top: 10px;
+        display: inline" 
+    }
+   
+ .para
+{
+    background-color: transparent;
+    width:85%;
+    position: relative;
+    left:4% ;
+    font-size:20px;
+    font-family:serif;
+    padding: 30px;
+    color:white;
+ }
+
+    
+.flip-card1
+{
+  border-color: goldenrod;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 8%;
+  top: 95%;
+  perspective: 1000px;
+    display: inline;
+}
+    
+.flip-card2
+{
+  border-color: goldenrod;
+  width: 250px;
+  height: 250px;
+  position:  absolute;
+  left: 30%;
+  top: 95%;
+  perspective: 1000px;
+  display:inline;
+}
+ 
+.flip-card3
+{
+  border-color: goldenrod;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  top: 95%;
+  perspective: 1000px;
+  display: inline;
+}
+ 
+.flip-card4
+{
+  border-color: goldenrod;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 70%;
+  top: 95%;
+  perspective: 1000px;
+  display: block;
+}
+    
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card1:hover .flip-card-inner,.flip-card2:hover .flip-card-inner,.flip-card3:hover .flip-card-inner,.flip-card4:hover .flip-card-inner{
+  transform: rotateX(180deg);
+}
+
+.flip-card-front, .flip-card-back1, .flip-card-back2,.flip-card-back3,.flip-card-back4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back1,.flip-card-back2,.flip-card-back3,.flip-card-back4 {
+  color: white;
+  transform: rotateX(180deg);
+}
+    
+    nav{
+	width:100%;
+	height: 20px;
+    position: absolute;
+    top:100%;
+	background-color: black;
+	line-height: 15px;
+}
+ 
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+        <h2 class="about-us">About Us</h2>
+        <span class="open-nav" onclick="openNav()" >&#9776;</span>
+           <div id="mySidenav" class="sidenav">
+                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                 <img src="C:\logofinal.jpg" alt="Zyafat" width="100%"/>
+                 <a href="#">Home</a>
+                 <a href="#">Menu</a>
+                 <a href="#">About Us</a>
+                 <a href="#">Contact Us</a>
+         </div> 
+</div>  
+    
+<div class="para">
+    <p>In today’s culinary world, cooking is not only an art, infact it has become a science as well. It is important for the chef now a days to have an understanding of the chemical, biological and physical processes of cooking. Simultaneously knowledge of different cuisine, practical techniques, methods of cooking and combination of both traditional and modern techniques are essential; if you want to impress and satisfy our valued clients.<br/><br/>Coming from a background where academic failure meant to be lifelong failure, I had no option except to obey my parents and complete my education, therefore I completed Masters Degree in Business Administration likewise my brother is also a Chartered Accountant. The Motivation behind us in indulging in the food business was our father who is an entrepreneur and has been involved in successfully in the event management Profession since 20 years or so.<br/><br/>Alhamdulillah Ziyafat (The Culinary) is emerging in the catering business competitive world as one of the prominent catering providers. It is different among others in the town since we have high quality Chefs who are thorough professionals with comprehensive experience of Arabic, Continental & Chinese cuisines.<br/><br/>Our manifesto is to provide Superior Quality Hygienic food with extra emphasis on fair & factual quantity provision in terms of material & weight undeceptively. We always strive to serve with excellence in Wedding ceremonies, Business Sessions, Corporate Events, and other societal gatherings to make your events Exquisite and Memorable.</p>
+</div>   
+   
+
+<div class="flip-card1">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="C:\Hasham Khalid.jpeg" alt="Picture of the owner"  style="width:250px;height:250px;">
+    </div>
+    <div class="flip-card-back1" Style="background-color:#236A8D">
+      <h2>Hasham Khalid</h2>
+      <h3>Chief Executive</h3>
+    </div>
+  </div>
+</div>
+    
+    
+<div class="flip-card2" >
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="C:\Haris Khalid.jpeg" alt="Picture of the owner"  style="width:250px;height:250px;">
+    </div>
+    <div class="flip-card-back2" style="background-color:#406f2f">
+      <h2>Haris Khalid</h2>
+      <h3>Sales Executive<br/>Marketing Executive</h3>
+    </div>
+  </div>
+</div>
+   
+         
+<div class="flip-card3">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="C:\Waqas Adnan.gif" alt="Picture of the owner" style="width:250px;height:250px;"/>
+    </div>
+    <div class="flip-card-back3" style="background-color:#4f0f2f">
+      <h2>Waqas Adnan</h2>
+      <h3>Chief Operating officer</h3>
+    </div>
+  </div>
+</div> 
+
+    
+<div class="flip-card4">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="C:\Taha Adnan.jpeg" alt="Picture of the owner" style="width:250px;height:250px;">
+    </div>
+    <div class="flip-card-back4" style="background-color:#5f8ff8">
+      <h2>Taha Adnan</h2>
+      <h3>General Manager Operations</h3>
+    </div>
+  </div>
+</div> 
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
+</body>
+</html> 
