@@ -4,7 +4,45 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
-.navbar
+
+ .closebtn{visibility: hidden;}
+    .open-nav{visibility: hidden;}
+    .logo{width: 120px;}
+    .heading{display:none}
+    
+    .sidenav{
+    
+	height: 80px;
+	background-color: black;
+	line-height: 40px;  
+}
+    .sidenav ul {
+        float:right;
+        margin-right: 40px;
+        padding-top: 1em;
+    }
+    
+    
+.sidenav ul li {
+	list-style-type: none;
+	display:inline-block;
+	border-left: 3px solid white;
+	height:40px;
+	font-size: 20px;
+}
+
+.sidenav ul li a{
+color:white;
+text-decoration: none;
+padding:20px;
+}
+
+.header {
+  overflow: hidden;
+  background-color: black;
+    
+}
+/*.navbar
 {
 	background-color: black;
 	display: flex;
@@ -68,7 +106,7 @@
 	display: none;
 }
 
-
+*/
 
 .content #banner
 {
@@ -218,16 +256,17 @@ padding-left:0;
 
 @media screen and (min-width: 700px)
 {
-	.navbar
+	/*.navbar
 	{
 		justify-content: flex-end;
 		position: fixed;
-	}
+	}*/
+    
 }
 
 @media screen and (max-width: 700px)
 {
-	.navbar
+	/*.navbar
 	{
 		flex-direction: column;
 		display: none;
@@ -242,7 +281,7 @@ padding-left:0;
 	{	
 		display: flex;
 	}
-
+*/
 	#slider h1{top:90%;left:20%;}
 	#add{margin-left:5%;margin-top: 35%;}
 	#phone{margin-left:5%}
@@ -269,8 +308,77 @@ padding-left:0;
 	#facebook{top:158%;left:10%;}
 }
 
+@media screen and (max-height: 450px) {
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+    .header {
+  overflow: hidden;
+  background-color: black;
+    
+}
+
+  .heading{
+        visibility: visible;
+        position: relative;
+        left:43%;
+        top:10px;
+        text-align: center;
+        font-family:serif;
+        font-size: 50px;
+        color:White;
+        display: inline;
+    }
+    
+    .open-nav{
+        font-size:50px;
+        cursor:pointer;
+        color:white;
+        float: left; 
+        position: relative;
+        top: 10px;
+        display: "inline"; 
+    }
+    
+    .closebtn{visibility: visible;}
+    .open-nav{visibility: visible;}
+   
+    .logo{width:100%;}
+}
 @media screen and (max-width:400px)
 {
+
 
 	#try1{ width:12%  ;height:7%}
 	#try2{width:12% ;height:7%}

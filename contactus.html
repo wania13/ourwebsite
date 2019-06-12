@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
 </head>
 <body>
-	<div class="togglearea">
+	<!--<div class="togglearea">
 		<label for="toggle">
 			<span></span>
 			<span></span>
@@ -28,7 +28,22 @@
 			<a href="#">services</a>
 			<a href="#">gallery</a>
 			<a href="#">Contact</a>
-		</div>
+		</div>-->
+    <div class="header">
+    <h2 class="heading">Contact Us</h2>
+        <span class="open-nav" onclick="openNav()" >&#9776;</span>
+           <div id="mySidenav" class="sidenav">
+                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                 <img  class="logo" src="C:\logofinal.jpg" alt="Zyafat"/>
+               <ul>
+                   <li> <a href="#">Home</a></li>
+                   <li><a href="#">Menu</a></li>
+                   <li  ><a href="#">About Us</a></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#">Contact Us</a></li>
+               </ul>   
+           </div> 
+</div>
 
 	<div class="content">
 		<div id="banner">
@@ -58,19 +73,18 @@
 				
 
 			</div>
-
-
-
-
-
-
-
-
-
-
-
-
 		
 	</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
 </body>
 </html>
