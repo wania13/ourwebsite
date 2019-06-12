@@ -8,6 +8,153 @@ body {
     background-color:darkgrey;
 }
 
+.closebtn{visibility: hidden;}
+    .open-nav{visibility: hidden;}
+    .logo{width: 120px;}
+    .heading{display:none}
+    
+    .sidenav{
+	height: 80px;
+	background-color: black;
+	line-height: 40px;
+    border-style: double;
+    border-color: darkgoldenrod;
+}
+    .sidenav ul {
+        float:right;
+        margin-right: 40px;
+    }
+    
+    
+.sidenav ul li {
+	list-style-type: none;
+	display:inline-block;
+	border-left: 3px solid white;
+	height:40px;
+	font-size: 20px;
+}
+
+.sidenav ul li a{
+color:white;
+text-decoration: none;
+padding:20px;
+}
+   
+   
+ .para
+{
+    background-color: transparent;
+    width:85%;
+    position: relative;
+    left:4% ;
+    font-size:20px;
+    font-family:serif;
+    padding: 30px;
+    color:white;
+ }
+
+    
+.flip-card1
+{
+  border-color: goldenrod;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: 8%;
+  top: 95%;
+  perspective: 1000px;
+    display: inline-block;
+}
+    
+.flip-card2
+{
+  border-color: goldenrod;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left:130px;
+  top: 95%;
+  perspective: 1000px;
+  display:inline-block;
+}
+ 
+.flip-card3
+{
+  border-color: goldenrod;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: 155px;
+  top: 95%;
+  perspective: 1000px;
+  display: inline-block;
+}
+ 
+.flip-card4
+{
+  border-color: goldenrod;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: 190px;
+  top: 95%;
+  perspective: 1000px;
+  display: inline-block;
+}
+    
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card1:hover .flip-card-inner,.flip-card2:hover .flip-card-inner,.flip-card3:hover .flip-card-inner,.flip-card4:hover .flip-card-inner{
+  transform: rotateX(180deg);
+}
+
+.flip-card-front, .flip-card-back1, .flip-card-back2,.flip-card-back3,.flip-card-back4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back1,.flip-card-back2,.flip-card-back3,.flip-card-back4 {
+  color: white;
+  transform: rotateX(180deg);
+}
+    
+    nav{
+	width:100%;
+	height: 20px;
+    position: absolute;
+    top:100%;
+	background-color: black;
+	line-height: 15px;
+}
+    
+       .footer
+    {
+    height: 59px;
+    color: #fff;
+    padding: 2em 27em;
+    background: #000;
+    position: relative;
+    top: 208px;
+        
+    }
+ 
+@media screen and (max-height: 450px) {
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -50,7 +197,8 @@ body {
     
 }
 
-    .about-us{
+  .heading{
+        visibility: visible;
         position: relative;
         left:43%;
         top:10px;
@@ -68,129 +216,32 @@ body {
         float: left; 
         position: relative;
         top: 10px;
-        display: inline" 
+        display: "inline"; 
     }
+    
+    .closebtn{visibility: visible;}
+    .open-nav{visibility: visible;}
    
- .para
-{
-    background-color: transparent;
-    width:85%;
-    position: relative;
-    left:4% ;
-    font-size:20px;
-    font-family:serif;
-    padding: 30px;
-    color:white;
- }
-
-    
-.flip-card1
-{
-  border-color: goldenrod;
-  width: 250px;
-  height: 250px;
-  position: absolute;
-  left: 8%;
-  top: 95%;
-  perspective: 1000px;
-    display: inline;
-}
-    
-.flip-card2
-{
-  border-color: goldenrod;
-  width: 250px;
-  height: 250px;
-  position:  absolute;
-  left: 30%;
-  top: 95%;
-  perspective: 1000px;
-  display:inline;
-}
- 
-.flip-card3
-{
-  border-color: goldenrod;
-  width: 250px;
-  height: 250px;
-  position: absolute;
-  left: 50%;
-  top: 95%;
-  perspective: 1000px;
-  display: inline;
-}
- 
-.flip-card4
-{
-  border-color: goldenrod;
-  width: 250px;
-  height: 250px;
-  position: absolute;
-  left: 70%;
-  top: 95%;
-  perspective: 1000px;
-  display: block;
-}
-    
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card1:hover .flip-card-inner,.flip-card2:hover .flip-card-inner,.flip-card3:hover .flip-card-inner,.flip-card4:hover .flip-card-inner{
-  transform: rotateX(180deg);
-}
-
-.flip-card-front, .flip-card-back1, .flip-card-back2,.flip-card-back3,.flip-card-back4 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back1,.flip-card-back2,.flip-card-back3,.flip-card-back4 {
-  color: white;
-  transform: rotateX(180deg);
-}
-    
-    nav{
-	width:100%;
-	height: 20px;
-    position: absolute;
-    top:100%;
-	background-color: black;
-	line-height: 15px;
-}
- 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+    .logo{width:100%;}
 }
 
 </style>
 </head>
 <body>
 <div class="header">
-        <h2 class="about-us">About Us</h2>
+    <h2 class="heading">About Us</h2>
         <span class="open-nav" onclick="openNav()" >&#9776;</span>
            <div id="mySidenav" class="sidenav">
                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                 <img src="C:\logofinal.jpg" alt="Zyafat" width="100%"/>
-                 <a href="#">Home</a>
-                 <a href="#">Menu</a>
-                 <a href="#">About Us</a>
-                 <a href="#">Contact Us</a>
-         </div> 
+                 <img  class="logo" src="C:\logofinal.jpg" alt="Zyafat"/>
+               <ul>
+                   <li> <a href="#">Home</a></li>
+                   <li><a href="#">Menu</a></li>
+                   <li  style="background: grey"><a href="#">About Us</a></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#">Contact Us</a></li>
+               </ul>   
+           </div> 
 </div>  
     
 <div class="para">
@@ -249,7 +300,10 @@ body {
   </div>
 </div> 
 
-
+    <div class="footer">
+        <p class="text" style="font-family:serif;">We Offer Complete Decor and Catering for All the Listed Events</p>
+    </div>
+    
 <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "200px";
