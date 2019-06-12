@@ -1,0 +1,285 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.navbar
+{
+	background-color: black;
+	display: flex;
+	z-index: 999;
+	width: 100%;
+	height: 10%;
+}
+.navbar a
+{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 14px 28px;
+}
+.navbar a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+#toggle
+{
+	display: none;
+
+}
+.togglearea
+{
+	background-color: black;
+	border-bottom: 2px solid white;
+	color: white;
+	display: flex;
+	position: fixed;
+	z-index: 999;
+	justify-content: flex-end;
+	width: 100%;
+}
+.togglearea label
+{
+	background-color: black;
+	height: 45px;
+	width: 50px;
+	color: black;
+	border-radius: 6px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.togglearea label span
+{
+	background-color: white;
+	height: 4px;
+	width: 70%;
+	margin: 2px 0px;
+}
+.togglearea
+{
+	display: none;
+}
+
+
+
+.content #banner
+{
+	position: relative;
+	height:85vh;
+	width:100vw;
+}
+
+#para{
+	float:left;
+	color: #e53e0b;
+	font-family: Audiowide;
+	font-size:220%;
+	
+	
+	margin-top: 3%;
+	margin-left:4%;
+	font-weight: bold;
+	position:absolute;
+	top:14%;
+}
+
+#touch{
+	color: brown;
+	font-weight: normal;
+	font-size:120%;
+	margin-left:20%;
+
+}
+
+#withus{
+	margin-left: 12vw;
+}
+#try1{
+
+	position: absolute;
+	top: 22vh;
+	left: 50vw;
+}
+#try2{
+
+	position: absolute;
+	top: 22vh;
+	left: 57vw;
+}
+
+#try3{
+
+	position: absolute;
+	top: 22vh;
+	left: 64vw;
+}
+
+#try4{
+
+	position: absolute;
+	top: 22vh;
+	left: 71vw;
+}
+#add{
+	font-family: sans-serif;
+	font-weight: bold;
+	display:flex;
+	margin-left:13%;
+	margin-top: 17%;
+	
+}
+
+#phone{
+	font-family: sans-serif;
+	margin-top:2%;
+	font-weight: bold;
+	display:flex;
+	margin-left:13%;
+}
+#email{
+	font-family: sans-serif;
+	font-weight: bold;
+	display:flex;
+	margin-top:2%;
+	margin-left:13%;
+}
+
+#timing{
+	font-family: sans-serif;
+	position:absolute;
+	top:125%;
+	font-weight: bold;
+	left:60%;
+}
+
+#facebook{
+	font-family: sans-serif;
+	font-weight: bold;
+	position:absolute;
+	top:145%;
+	margin-left:60%;
+
+	
+}
+
+p{
+	margin:0;
+	padding-left:10px;
+}
+
+.special{
+padding-left:0;
+}
+
+#slider h1{
+	position:absolute;
+	top:110%;
+	left:40%;
+	color: black;
+	font-size:260%;
+	font-family: pacifico;
+
+}
+
+#logo{
+	margin-right: 25%;
+}
+
+#second-part{
+	width:100vw;
+	height: 70vh;
+}
+
+
+
+@media screen and (max-width:920px)
+{
+	#logo{display: none;}
+	#try1{width:7%  ;height:14%;left:59vw;}
+	#try2{width:7% ;height:14%;left:66vw;}
+	#try3{width:7% ;height:14%;left:73vw;}
+	#try4{width:7%;height: 14%;left:80vw;}
+	#slider h1{top:120%;left:20%;}
+	#add{margin-left:5%;margin-top: 35%;}
+	#phone{margin-left:5%}
+	#email{margin-left:5%}
+	#timing{top:145%;left:55%;}
+	#facebook{top:168%;}
+
+}
+
+@media screen and (min-width: 700px)
+{
+	.navbar
+	{
+		justify-content: flex-end;
+		position: fixed;
+	}
+}
+
+@media screen and (max-width: 700px)
+{
+	.navbar
+	{
+		flex-direction: column;
+		display: none;
+
+	}
+	#toggle:checked + .navbar
+	{
+		display: flex
+
+	}
+	.togglearea
+	{	
+		display: flex;
+	}
+
+	#slider h1{top:90%;left:20%;}
+	#add{margin-left:5%;margin-top: 35%;}
+	#phone{margin-left:5%}
+	#email{margin-left:5%}
+	#timing{top:130%;left:60%;}
+	#facebook{top:150%;}
+
+}
+
+
+
+@media screen and (max-width:540px)
+{
+
+	#try1{left:20vw;	top:47vh; width:10%  ;height:17%}
+	#try2{left:35vw;	top: 47vh;width:10% ;height:17%}
+	#try3{left:50vw;	top: 47vh;width:10% ;height:17%}
+	#try4{left:65vw;	top: 47vh;width:10% ;height:17%}
+	#slider h1{top:100%;left:20%;}
+	#add{margin-left:5%;margin-top: 35%;}
+	#phone{margin-left:5%}
+	#email{margin-left:5%}
+	#timing{top:155%;left:7%;}
+	#facebook{top:158%;left:10%;}
+}
+
+@media screen and (max-width:400px)
+{
+
+	#try1{ width:12%  ;height:7%}
+	#try2{width:12% ;height:7%}
+	#try3{width:12% ;height:7%}
+	#try4{width: 12%;height: 7%}
+	#slider h1{top:90%;left:20%;}
+	#add{margin-left:5%;margin-top: 35%;}
+	#phone{margin-left:5%}
+	#email{margin-left:5%}
+	#timing{top:150%;left:7%;}
+	#facebook{top:153%;left:10%;}
+}
