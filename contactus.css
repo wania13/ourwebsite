@@ -36,12 +36,13 @@ color:white;
 text-decoration: none;
 padding:20px;
 }
-
-.header {
+    .header {
   overflow: hidden;
   background-color: black;
+  border-style: double;
     
 }
+
 /*.navbar
 {
 	background-color: black;
@@ -361,6 +362,12 @@ padding-left:0;
         display: inline;
     }
     
+    .header {
+  overflow: hidden;
+  background-color: black;
+  border-style: double;
+    
+}
     .open-nav{
         font-size:50px;
         cursor:pointer;
