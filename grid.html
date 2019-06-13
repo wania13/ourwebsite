@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<title></title>
+ 	<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet"> 
+
+ <style type="text/css">*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.navbar
+{
+	background-color: black;
+	display: flex;
+	z-index: 999;
+	width: 100%;
+	height: 10%;
+}
+.navbar a
+{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 14px 28px;
+}
+.navbar a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+#toggle
+{
+	display: none;
+
+}
+.togglearea
+{
+	background-color: black;
+	border-bottom: 2px solid white;
+	color: white;
+	display: flex;
+	position: fixed;
+	z-index: 999;
+	justify-content: flex-end;
+	width: 100%;
+}
+.togglearea label
+{
+	background-color: black;
+	height: 45px;
+	width: 50px;
+	color: black;
+	border-radius: 6px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.togglearea label span
+{
+	background-color: white;
+	height: 4px;
+	width: 70%;
+	margin: 2px 0px;
+}
+.togglearea
+{
+	display: none;
+}
+#logo{
+	margin-right: 25%;
+}
+@media screen and (max-width:920px)
+{
+	
+	#logo{display: none;}
+}
+
+@media screen and (min-width: 700px)
+{
+	.navbar
+	{
+		justify-content: flex-end;
+		position: fixed;
+	}
+}
+
+@media screen and (max-width: 700px)
+{
+	.navbar
+	{
+		flex-direction: column;
+		display: none;
+
+	}
+	#toggle:checked + .navbar
+	{
+		display: flex;
+		position: absolute;
+		height:50%;
+		top:8%;
+
+	}
+	.togglearea
+	{	
+		display: flex;
+	}
+
+}
+
+html,body {height: 100%;}
+#container{min-height: 100%;}
+#main{overflow: auto;padding-bottom: 80px;}
+#footer{background-color: #000;position:relative;height: 70px;margin-top:-70px;clear:both; font-family:satisfy;}
+
+
+/* you can change these media size according to your design */
+@media screen and (max-width:540px)
+{}
+
+@media screen and (max-width:400px)
+{}
+</style>
+
+
+</head>
+<body>
+
+<div id="container">
+	       <div class="togglearea">
+		          <label for="toggle">
+			           <span></span>
+			           <span></span>
+			           <span></span>
+		             </label>
+	       </div>
+	
+	       <input type="checkbox" id="toggle">
+	         <div class="navbar">
+		          <img  id="logo" src="C:\logofinal.jpg" width="6%" height="95%" />
+		              <a href="#">Home</a>
+		              <a href="#">about</a>
+		              <a href="#">menu</a>
+		              <a href="#">services</a>
+		              <a href="#">gallery</a>
+		              <a href="#">contact</a>
+	          </div>
+
+
+
+    <div id="main">
+
+    	<!-- write your code here -->
+
+
+
+
+
+
+      
+    </div>
+
+
+ </div>
+
+
+<footer id="footer" style="color: white; font-family:satisfy;font-size: 40px; text-align: center;line-height: -5px;">The name speak itself !</footer>
+
+
+
+</body>
+
+</html>
