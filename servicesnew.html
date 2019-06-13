@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<title>Responsive Menu</title>
+
+ <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet"> 
+
+ <style type="text/css">
+ 	*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.navbar
+{
+	background-color: black;
+	display: flex;
+	z-index: 999;
+	width: 100%;
+	height: 10%;
+}
+.navbar a
+{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 14px 28px;
+}
+.navbar a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+#toggle
+{
+	display: none;
+
+}
+.togglearea
+{
+	background-color: black;
+	border-bottom: 2px solid white;
+	color: white;
+	display: flex;
+	position: fixed;
+	z-index: 999;
+	justify-content: flex-end;
+	width: 100%;
+}
+.togglearea label
+{
+	background-color: black;
+	height: 45px;
+	width: 50px;
+	color: black;
+	border-radius: 6px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.togglearea label span
+{
+	background-color: white;
+	height: 4px;
+	width: 70%;
+	margin: 2px 0px;
+}
+.togglearea
+{
+	display: none;
+}
+#logo{
+	margin-right: 25%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:920px)
+{
+	
+	#logo{display: none;}
+}
+
+@media screen and (min-width: 700px)
+{
+	.navbar
+	{
+		justify-content: flex-end;
+		position: fixed;
+	}
+}
+
+@media screen and (max-width: 700px)
+{
+	.navbar
+	{
+		flex-direction: column;
+		display: none;
+
+	}
+	#toggle:checked + .navbar
+	{
+		display: flex;
+		position: absolute;
+		height:50%;
+		top:8%;
+
+	}
+	.togglearea
+	{	
+		display: flex;
+	}
+
+
+
+}
+
+html,body {height: 100%;}
+#container{min-height: 100%;}
+#main{overflow: auto;padding-bottom: 250px;}
+#footer{background-color: #000;position:relative;height: 100px;margin-top:-100px;clear:both;}
+
+#topic{
+  margin-top:90px;
+  margin-left:30px;
+  color: #800000;
+  text-align: center;
+  font-family: satisfy;
+margin-top: 120px;
+}
+
+ 
+   
+    .flip-card1
+{
+  border-color: goldenrod;
+  width: 350px;
+  height: 300px;
+  position: relative;
+  left: 50px;
+  top: 50px;
+  perspective: 1000px;
+  display: inline-block;
+}
+    
+.flip-card2
+{
+  border-color: goldenrod;
+  width: 350px;
+  height: 300px;
+  position:  relative;
+  left: 130px;
+  top: 50px;
+  perspective: 1000px;
+  display:inline-block;
+}
+ 
+.flip-card3
+{
+  border-color: goldenrod;
+  width: 350px;
+  height: 300px;
+  position: relative;
+  left: 230px;
+  top: 50px;
+  perspective: 1000px;
+  display: inline-block;
+}
+ 
+.flip-card4
+{
+  border-color: goldenrod;
+  width: 350px;
+  height: 300px;
+  position: relative;
+  left: 50px;
+  top: 50px;
+  perspective: 1000px;
+  display:inline-block;
+}
+    
+.flip-card5
+{
+  border-color: goldenrod;
+  width: 350px;
+  height: 300px;
+  position: relative;
+  left: 130px;
+  top: 50px;
+  perspective: 1000px;
+  display:inline-block;
+}
+    
+.flip-card6
+{
+  border-color: goldenrod;
+  width: 350px;
+  height: 300px;
+  position: relative;
+  left: 230px;
+  top: 50px;
+  perspective: 1000px;
+  display:inline-block;
+}  
+    
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card1:hover .flip-card-inner,.flip-card2:hover .flip-card-inner,.flip-card3:hover .flip-card-inner,.flip-card4:hover .flip-card-inner,.flip-card5:hover .flip-card-inner,.flip-card6:hover .flip-card-inner{
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back1, .flip-card-back2,.flip-card-back3,.flip-card-back4,.flip-card-back5,.flip-card-back6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back1,.flip-card-back2,.flip-card-back3,.flip-card-back4,.flip-card-back5,.flip-card-back6 {
+  color: white;
+  transform: rotateY(180deg);
+}
+    .img
+    {
+        width:350px;
+        height:300px;
+    }
+
+@media screen and (max-width:540px)
+{
+
+}
+
+@media screen and (max-width:400px)
+{
+
+
+}
+ </style>
+</head>
+
+
+
+
+
+<body>
+
+<div id="container">
+	       <div class="togglearea">
+		          <label for="toggle">
+			           <span></span>
+			           <span></span>
+			           <span></span>
+		             </label>
+	       </div>
+	
+	       <input type="checkbox" id="toggle">
+	         <div class="navbar">
+		          <img  id="logo" src="C:\logofinal.jpg" width="6%" height="95%" />
+		              <a href="#">Home</a>
+		              <a href="#">about</a>
+		              <a href="#">menu</a>
+		              <a href="#">services</a>
+		              <a href="#">gallery</a>
+		              <a href="#">contact</a>
+	          </div>
+
+
+
+    <div id="main">
+      
+          <divs>
+ <h1 id="topic">Oh Yes! We are the Ultimate Solution :) </h1>   
+<div class="flip-card1">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img class="img" src="C:\wedding.jpg" alt="Picture of the owner">
+    </div>
+    <div class="flip-card-back1" Style="background-color:#ff0f0f">
+      <h1>Weddings</h1>
+    </div>
+  </div>
+</div>
+    
+    
+<div class="flip-card2" >
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img class="img" src="C:\valima.jpg" alt="Picture of the owner">
+    </div>
+    <div class="flip-card-back2" style="background-color:lightblue">
+      <h1>Valimas</h1>
+    </div>
+  </div>
+</div>
+   
+         
+<div class="flip-card3">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img class="img" src="C:\birthday.jpg" alt="Picture of the owner"/>
+    </div>
+    <div class="flip-card-back3" style="background-color:hotpink">
+      <h1>Birthdays</h1>
+    </div>
+  </div>
+</div> 
+
+    <br/>
+    
+<div class="flip-card4" style="padding-top: 30px">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img class="img" src="C:\mehendi.jpg" alt="Picture of the owner">
+    </div>
+    <div class="flip-card-back4" style="background-color:orangered">
+      <h1>Mehendi</h1>
+    </div>
+  </div>
+</div> 
+ 
+  <div class="flip-card5" style="padding-top: 30px">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img class="img" src="C:\socialevents.jpg" alt="Picture of the owner">
+    </div>
+    <div class="flip-card-back5" style="background-color:lightsalmon">
+      <h1>Social Events</h1>
+    </div>
+  </div>
+</div> 
+    
+    <div class="flip-card6" style="padding-top: 30px">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img class="img" src="C:\bussiness.jpg" alt="Picture of the owner">
+    </div>
+    <div class="flip-card-back6" style="background-color:darkslateblue">
+      <h1>Bussiness Meetings</h1>
+    </div>
+  </div>
+</div> 
+</div> 
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+ </div>
+
+
+<footer id="footer" style="color: white; font-family:satisfy; font-size: 40px; text-align: center;line-height: -5px;">The name speak itself !</footer>
+
+
+
+</body>
+
+</html>

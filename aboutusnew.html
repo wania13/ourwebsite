@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<title>Responsive Menu</title>
+ <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet"> 
+ <style type="text/css">
+ 	
+#topic{
+  margin-top:90px;
+  margin-left:30px;
+  margin-bottom: 20px;
+  color: #800000
+}
+
+#topic2{
+  margin-top:90px;
+  margin-left:500px;
+  font-size: 70px;
+  color: #800000;
+  font-family: satisfy;
+}
+
+ .para
+{
+    background-color: rgb(255, 153, 102);
+    width:85%;
+    position: relative;
+    left:6% ;
+    font-size:20px;
+    font-family:serif;
+    padding: 30px;
+    color:black;
+    border:7px solid #e65c00;
+    box-shadow: 10px 10px 5px #888888;
+
+ }
+
+ p{
+  font-family: satisfy;
+  font-size: 30px;
+ 
+ }
+
+    
+.flip-card1
+{
+  border-color: goldenrod;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: 8%;
+  top: 95%;
+  perspective: 1000px;
+    display: inline-block;
+}
+    
+.flip-card2
+{
+  border-color: goldenrod;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left:130px;
+  top: 95%;
+  perspective: 1000px;
+  display:inline-block;
+}
+ 
+.flip-card3
+{
+  border-color: goldenrod;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: 155px;
+  top: 95%;
+  perspective: 1000px;
+  display: inline-block;
+}
+ 
+.flip-card4
+{
+  border-color: goldenrod;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: 190px;
+  top: 95%;
+  perspective: 1000px;
+  display: inline-block;
+}
+    
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card1:hover .flip-card-inner,.flip-card2:hover .flip-card-inner,.flip-card3:hover .flip-card-inner,.flip-card4:hover .flip-card-inner{
+  transform: rotateX(180deg);
+}
+
+.flip-card-front, .flip-card-back1, .flip-card-back2,.flip-card-back3,.flip-card-back4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+
+}
+
+.flip-card-back1,.flip-card-back2,.flip-card-back3,.flip-card-back4 {
+  color: white;
+  transform: rotateX(180deg);
+}
+.footer
+{
+    height: 40px;
+    color: #fff;
+    padding: 2em 27em;
+    background: #000;
+    position: relative;
+    top: 208px;
+}
+
+.special{
+  color: #990000;
+  font-size:50px;
+  display: inline-block;
+}
+
+#mainflip{
+ 
+  margin-top:100px;
+
+}
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.navbar
+{
+	background-color: black;
+	display: flex;
+	z-index: 999;
+	width: 100%;
+	height: 10%;
+}
+.navbar a
+{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 14px 28px;
+}
+.navbar a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+#toggle
+{
+	display: none;
+
+}
+.togglearea
+{
+	background-color: black;
+	border-bottom: 2px solid white;
+	color: white;
+	display: flex;
+	position: fixed;
+	z-index: 999;
+	justify-content: flex-end;
+	width: 100%;
+}
+.togglearea label
+{
+	background-color: black;
+	height: 45px;
+	width: 50px;
+	color: black;
+	border-radius: 6px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.togglearea label span
+{
+	background-color: white;
+	height: 4px;
+	width: 70%;
+	margin: 2px 0px;
+}
+.togglearea
+{
+	display: none;
+}
+#logo{
+	margin-right: 25%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:920px)
+{
+	
+	#logo{display: none;}
+}
+
+@media screen and (min-width: 700px)
+{
+	.navbar
+	{
+		justify-content: flex-end;
+		position: fixed;
+	}
+}
+
+@media screen and (max-width: 700px)
+{
+	.navbar
+	{
+		flex-direction: column;
+		display: none;
+
+	}
+	#toggle:checked + .navbar
+	{
+		display: flex;
+		position: absolute;
+		height:50%;
+		top:8%;
+
+	}
+	.togglearea
+	{	
+		display: flex;
+	}
+
+
+
+}
+
+html,body {height: 100%;}
+#container{min-height: 100%;}
+#main{overflow: auto;padding-bottom: 80px;}
+#footer{background-color: #000;position:relative;height: 70px;margin-top:-70px;clear:both; font-family:satisfy;}
+
+
+
+@media screen and (max-width:540px)
+{
+
+}
+
+@media screen and (max-width:400px)
+{
+
+
+}
+
+ </style>
+</head>
+<body>
+
+<div id="container">
+	       <div class="togglearea">
+		          <label for="toggle">
+			           <span></span>
+			           <span></span>
+			           <span></span>
+		             </label>
+	       </div>
+	
+	       <input type="checkbox" id="toggle">
+	         <div class="navbar">
+		          <img  id="logo" src="C:\logofinal.jpg" width="6%" height="95%" />
+		              <a href="#">Home</a>
+		              <a href="#">about</a>
+		              <a href="#">menu</a>
+		              <a href="#">services</a>
+		              <a href="#">gallery</a>
+		              <a href="#">contact</a>
+	          </div>
+
+
+
+    <div id="main">
+      
+
+<div class="para">
+  <h1 id="topic">Our History :)</h1>
+    <p>In today’s culinary world, cooking is not only an art, infact it has become a science as well. It is important for the chef now a days to have an understanding of the chemical, biological and physical processes of cooking. Simultaneously knowledge of different cuisine, practical techniques, methods of cooking and combination of both traditional and modern techniques are essential; if you want to impress and satisfy our valued clients.<br/><br/>Coming from a background where academic failure meant to be lifelong failure, I had no option except to obey my parents and complete my education, therefore I completed Masters Degree in Business Administration likewise my brother is also a Chartered Accountant. The Motivation behind us in indulging in the food business was our father who is an entrepreneur and has been involved in successfully in the event management Profession since 20 years or so.<br/><br/>Alhamdulillah Ziyafat (The Culinary) is emerging in the catering business competitive world as one of the prominent catering providers. It is different among others in the town since we have high quality Chefs who are thorough professionals with comprehensive experience of Arabic, Continental & Chinese cuisines.<br/><br/><b><span class="special">"</span>Our manifesto is to provide Superior Quality Hygienic food with extra emphasis on fair & factual quantity provision in terms of material & weight undeceptively. We always strive to serve with excellence in Wedding ceremonies, Business Sessions, Corporate Events, and other societal gatherings to make your events Exquisite and Memorable.<span class="special">"</b></span></p>
+</div>   
+   
+<div id="mainflip">
+  <h1 id="topic2">Our Team</h1>
+<div class="flip-card1">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="C:\Hasham Khalid.jpeg" alt="Picture of the owner"  style="width:250px;height:250px;">
+    </div>
+    <div class="flip-card-back1" Style="background-color:#236A8D">
+      <h2>Hasham Khalid</h2>
+      <h3>Chief Executive</h3>
+    </div>
+  </div>
+</div>
+    
+    
+<div class="flip-card2" >
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="C:\Haris Khalid.jpeg" alt="Picture of the owner"  style="width:250px;height:250px;">
+    </div>
+    <div class="flip-card-back2" style="background-color:#406f2f">
+      <h2>Haris Khalid</h2>
+      <h3>Sales Executive<br/>Marketing Executive</h3>
+    </div>
+  </div>
+</div>
+   
+   <div class="flip-card3">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+   <img src="‪" style="width:250px;height:250px;">
+    </div>
+    <div class="flip-card-back3" alt="Picture of the owner" style="background-color:#4f0f2f">
+      <h2>Waqas Adnan</h2>
+      <h3>Chief Operating officer</h3>
+    </div>
+  </div>
+</div> 
+         
+
+
+    
+<div class="flip-card4">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="C:\Taha Adnan.jpeg" alt="Picture of the owner" style="width:250px;height:250px;">
+    </div>
+    <div class="flip-card-back4" style="background-color:#5f8ff8">
+      <h2>Taha Adnan</h2>
+      <h3>General Manager Operations</h3>
+    </div>
+  </div>
+</div> 
+
+
+
+
+
+
+
+
+      
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+ </div>
+
+
+<footer id="footer" style="color: white; font-family:satisfy;font-size: 40px; text-align: center;line-height: -5px;">The name speak itself !</footer>
+
+
+
+</body>
+
+</html>
