@@ -222,17 +222,13 @@ h4{color: white;font-size: 23px;margin-top: 25px; font-family: sans-serif; }
 		             </label> </div>
 		   <input type="checkbox" id="toggle">
 	         <div class="navbar">
-	         <div class="navbar">
 		          <img  id="logo" src="logofinal.jpg" width="6%" height="95%" />
-		          
-		              <a href="http://localhost/home2.php">Home</a>
-                      <a href="http://localhost/aboutusnew.php">About Us</a>
-		              <a href="‪http://localhost/menu.php">menu</a>
-		              <a href="http://localhost/servicesnew.php">services</a>
-		              <a href="http://localhost/testing.php">Gallery</a>
-		              <a href="http://localhost/contactnew.php">Contact Us</a>
-                   	 <a  id="dashboard" href="http://localhost/login.php">login</a>
-                 
+		              <a href="C:\home2.html">Home</a>
+                      <a href="C:\aboutusnew.html">About Us</a>
+		              <a href="‪#">menu</a>
+		              <a href="C:\servicesnew.html">services</a>
+		              <a href="C:\testing.html">Gallery</a>
+		              <a href="C:\contactnew.html">Contact Us</a>
 	          </div>
 
 
@@ -243,7 +239,7 @@ h4{color: white;font-size: 23px;margin-top: 25px; font-family: sans-serif; }
     	<div id="banner" style="border:1px solid black; background-color: #E8E8E8;">
 			
 			<h1 id="topic">Gallery</h1>
-			<h4 id="topic" style="font-size: 25px;">"Sharing the greatest moments with other is always the best thing<br>Find few of our captured moments while serving the happy stomachs and even happier hearts"</h4>
+			<h4 id="topic" style="font-size: 25px;">"Sharing the greatest moments with other is always the best thing<br>Find few of our captured moments while serving the happy stomachs and even happier hearts"</h1>
 				<div id="photos" style="margin:45px 65px; display: flex;align-content: center;flex-wrap: wrap;">
 			    <a href="aa.jpg" target="_blank"> <img class="img" src="aa.jpg" width="170px" height="170px" alt="Picture of the owner"></a>
 			    <a href="bb.jpg" target="_blank"> <img class="img" src="bb.jpg" width="170px" height="170px" alt="Picture of the owner"></a>
@@ -263,9 +259,9 @@ h4{color: white;font-size: 23px;margin-top: 25px; font-family: sans-serif; }
 			    <a href="o.jpg" target="_blank"> <img class="img" src="o.jpg" width="170px" height="170px" alt="Picture of the owner"></a>
 			    <a href="p.jpg" target="_blank"> <img class="img" src="p.jpg" width="170px" height="170px" alt="Picture of the owner"></a>
 				
-			    <a href="q.jpg" target="_blank" > <img class="img" src="C:\q.jpg" width="170px" height="170px" alt="Picture of the owner"></a>
-			    <a href="pp.jpg" target="_blank" > <img class="img" src="C:\pp.jpg" width="170px" height="170px" alt="Picture of the owner"></a>
-			    <a href="qq.jpg" target="_blank" > <img class="img" src="C:\qq.jpg" width="170px" height="170px" alt="Picture of the owner"></a>
+			    <a href="q.jpg" target="_blank" > <img class="img" src="q.jpg" width="170px" height="170px" alt="Picture of the owner"></a>
+			    <a href="pp.jpg" target="_blank" > <img class="img" src="pp.jpg" width="170px" height="170px" alt="Picture of the owner"></a>
+			    <a href="qq.jpg" target="_blank" > <img class="img" src="qq.jpg" width="170px" height="170px" alt="Picture of the owner"></a>
 
 			    <a href="r.jpg" target="_blank" > <img class="img" src="r.jpg" width="170px" height="170px" alt="Picture of the owner"></a>
 			    <a href="s.jpg" target="_blank" > <img class="img" src="s.jpg" width="170px" height="170px" alt="Picture of the owner"></a>
@@ -311,89 +307,90 @@ h4{color: white;font-size: 23px;margin-top: 25px; font-family: sans-serif; }
 
 
 <footer>
-  <div id="uperfooter" style="display: flex;">
+	<div id="uperfooter" style="display: flex;">
 
-      <div class="content" id="first">
-      <h4 style="margin-left: 100px;">Contact Us</h4>
-      <div id="quickcontact" style="margin-left:50px;">
+		<div class="content" id="first">
+			<h4 style="margin-left: 100px;">Contact Us</h4>
+			<div id="quickcontact" style="margin-left:50px;">
 
-        <div id="add" ><i class="fa fa-location-arrow" aria-hidden="true" style="color: grey;font-size: 20px;"></i> <p style="color: white;margin-left: 10px;"> Shop No. C-8, KDA Flat, Phase-4,<br> opp.Erum Shopping Emporium,</br> Shadman No.2,Sector 14-B,<br>North Karachi </br></p></div>
+				<div id="add" ><i class="fa fa-location-arrow" aria-hidden="true" style="color: grey;font-size: 20px;"></i> <p style="color: white;margin-left: 10px;"> Shop No. C-8, KDA Flat, Phase-4,<br> opp.Erum Shopping Emporium,</br> Shadman No.2,Sector 14-B,<br>North Karachi </br></p></div>
 
-        <div id="phone"><i class="fa fa-mobile" aria-hidden="true" style="color: grey; font-size: 30px;"></i><p style="margin-top: 0.7%;color: white;margin-left: 14px;">03452362250 <br>03433090638</br></p></div>
+				<div id="phone"><i class="fa fa-mobile" aria-hidden="true" style="color: grey; font-size: 30px;"></i><p style="margin-top: 0.7%;color: white;margin-left: 14px;">03452362250 <br>03433090638</br></p></div>
 
-        <div id="email"><i class="fa fa-envelope-o" aria-hidden="true"style="color: grey; font-size: 17px;"></i><p style="margin-top: 1%;color: white;margin-left: 10px;">haris.khalid87@gmail.com</p></div></div>
-    </div>
-
-    <div class="content" id="second"><h4 style="margin-left: 100px;";>Quick Links</h4>
-      <div id="links">
-		              <a href="http://localhost/home2.php">Home</a>
-                      <a href="http://localhost/aboutusnew.php">About Us</a>
-		              <a href="‪http://localhost/menu.php">menu</a>
-		              <a href="http://localhost/servicesnew.php">services</a>
-		              <a href="http://localhost/testing.php">Gallery</a>
-		              <a href="http://localhost/contactnew.php">Contact Us</a></div>
-    </div>
-
-    <div class="content"  id="third"><h4 style="margin-left: 40px;">Customer Reviews</h4>
-
-      <script language="javascript">
-        ScrollRate = 50;
-
-      function scrollDiv_init() {
-        DivElmnt = document.getElementById('MyDivName');
-        ReachedMaxScroll = false;
-  
-        DivElmnt.scrollTop = 0;
-        PreviousScrollTop  = 0;
-  
-        ScrollInterval = setInterval('scrollDiv()', ScrollRate);
-        }
-
-      function scrollDiv() {
-  
-        if (!ReachedMaxScroll) {
-        DivElmnt.scrollTop = PreviousScrollTop;
-        PreviousScrollTop++;
-      
-        ReachedMaxScroll = DivElmnt.scrollTop >= (DivElmnt.scrollHeight - DivElmnt.offsetHeight);
-        }
-      else {
-        ReachedMaxScroll = (DivElmnt.scrollTop == 0)?false:true;
-    
-        DivElmnt.scrollTop = PreviousScrollTop;
-        PreviousScrollTop--;
-        }
-      }
-
-      function pauseDiv() {
-      clearInterval(ScrollInterval);
-      }
-
-      function resumeDiv() {
-          PreviousScrollTop = DivElmnt.scrollTop;
-          ScrollInterval    = setInterval('scrollDiv()', ScrollRate);
-      }
-      </script>
-      <div id="MyDivName"  onMouseOver="pauseDiv()" onMouseOut="resumeDiv()">
-        <p>Awesome taste, quantity and quality is very good. Good job and keep going and touch the sky of success. Thank you ziyfat.😊-<b>Muhammad Imran‎ </b></p>
-        <p>Great Beef Yakhni Pulao ..Delicious Kheer😊😊😊.Thank you Ziyafat -‎<b>Danish Shiekh</b></p>
-        <p>The food is so tasty and so delicious and plus the service is also very good. Best experience :)👌  -<b>Areeb Anjum</b></p>
-        <p>amazing food 10/10 Biryaaani *** too good 😊 keep up the good work. Ma SHA ALLAH -<b>Jehad Ak</b></p>
-        <p>asalamualaikum mashallah behtreen khana tha behtreen taste .always good quality 👌 thanks for the best food -<b>Bilal Khan</b></p>
-        <p>lush haleen 😊.... thanks for the taste....... -<b>Muhammad Yasin</b></p>
-        <p>Taha bhai boht khoob boht zyada tareef ki he family ne 👌 or boht maza aya beef me end krdya apne -<b>Fadi Mirza</b></p>
-        <p>masha Allah great taste 👌 ... good work haris.. -<b>Rameez Zaheer</b></p></div></div>
-  
-
-    <div class="content" id="last" ><h4 >Join Us</h4>
-      <div id="fblink">
-      <div class="fb-page" data-href="https://www.facebook.com/Zziyafat/?epa=SEARCH_BOX" data-tabs="timeline" data-width="270px" data-height="180px" data-small-header="false"   data-show-facepile="true"data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Zziyafat/?epa=SEARCH_BOX" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Zziyafat/?epa=SEARCH_BOX">Ziyafat</a></blockquote></div>
-     </div> </div></div>
+				<div id="email"><i class="fa fa-envelope-o" aria-hidden="true"style="color: grey; font-size: 17px;"></i><p style="margin-top: 1%;color: white;margin-left: 10px;">haris.khalid87@gmail.com</p></div></div>
+		</div>
 
 
 
-  <div id="downfooter" style="color: white; font-family:satisfy;font-size: 40px; text-align: center;line-height: -5px;">The name speak itself </div></footer>
+		<div class="content" id="second"><h4 style="margin-left: 100px;";>Quick Links</h4>
+			<div id="links">
+				<a href="">Home</a>
+				<a href="">About Us</a>
+				<a href="">Menu</a>
+				<a href="">Gallery</a>
+				<a href="">Services</a>
+				<a href="">Contact Us</a></div>
+		</div>
 
+		<div class="content"  id="third"><h4 style="margin-left: 40px;">Customer Reviews</h4>
+
+			<script language="javascript">
+				ScrollRate = 50;
+
+			function scrollDiv_init() {
+				DivElmnt = document.getElementById('MyDivName');
+				ReachedMaxScroll = false;
+	
+				DivElmnt.scrollTop = 0;
+				PreviousScrollTop  = 0;
+	
+				ScrollInterval = setInterval('scrollDiv()', ScrollRate);
+				}
+
+			function scrollDiv() {
+	
+				if (!ReachedMaxScroll) {
+				DivElmnt.scrollTop = PreviousScrollTop;
+				PreviousScrollTop++;
+			
+				ReachedMaxScroll = DivElmnt.scrollTop >= (DivElmnt.scrollHeight - DivElmnt.offsetHeight);
+				}
+			else {
+				ReachedMaxScroll = (DivElmnt.scrollTop == 0)?false:true;
+		
+				DivElmnt.scrollTop = PreviousScrollTop;
+				PreviousScrollTop--;
+				}
+			}
+
+			function pauseDiv() {
+			clearInterval(ScrollInterval);
+			}
+
+			function resumeDiv() {
+					PreviousScrollTop = DivElmnt.scrollTop;
+					ScrollInterval    = setInterval('scrollDiv()', ScrollRate);
+			}
+			</script>
+			<div id="MyDivName"  onMouseOver="pauseDiv()" onMouseOut="resumeDiv()">
+				<p>Awesome taste, quantity and quality is very good. Good job and keep going and touch the sky of success. Thank you ziyfat.??-<b>Muhammad Imran? </b></p>
+				<p>Great Beef Yakhni Pulao ..Delicious Kheer??????.Thank you Ziyafat -?<b>Danish Shiekh</b></p>
+				<p>The food is so tasty and so delicious and plus the service is also very good. Best experience :)??  -<b>Areeb Anjum</b></p>
+				<p>amazing food 10/10 Biryaaani *** too good ?? keep up the good work. Ma SHA ALLAH -<b>Jehad Ak</b></p>
+				<p>asalamualaikum mashallah behtreen khana tha behtreen taste .always good quality ?? thanks for the best food -<b>Bilal Khan</b></p>
+				<p>lush haleen ??.... thanks for the taste....... -<b>Muhammad Yasin</b></p>
+				<p>Taha bhai boht khoob boht zyada tareef ki he family ne ?? or boht maza aya beef me end krdya apne -<b>Fadi Mirza</b></p>
+				<p>masha Allah great taste ?? ... good work haris.. -<b>Rameez Zaheer</b></p></div></div>
+	
+
+		<div class="content" id="last" ><h4 >Join Us</h4>
+		  <div id="fblink">
+			<div class="fb-page" data-href="https://www.facebook.com/Zziyafat/?epa=SEARCH_BOX" data-tabs="timeline" data-width="270px" data-height="180px" data-small-header="false"   data-show-facepile="true"data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Zziyafat/?epa=SEARCH_BOX" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Zziyafat/?epa=SEARCH_BOX">Ziyafat</a></blockquote></div>
+		 </div>	</div></div>
+
+
+
+	<div id="downfooter" style="color: white; font-family:satisfy;font-size: 40px; text-align: center;line-height: -5px;">The name speak itself </div></footer>
 </body>
 
 </html>
