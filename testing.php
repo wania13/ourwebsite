@@ -223,12 +223,12 @@ h4{color: white;font-size: 23px;margin-top: 25px; font-family: sans-serif; }
 		   <input type="checkbox" id="toggle">
 	         <div class="navbar">
 		          <img  id="logo" src="logofinal.jpg" width="6%" height="95%" />
-		              <a href="C:\home2.html">Home</a>
-                      <a href="C:\aboutusnew.html">About Us</a>
-		              <a href="‪#">menu</a>
-		              <a href="C:\servicesnew.html">services</a>
-		              <a href="C:\testing.html">Gallery</a>
-		              <a href="C:\contactnew.html">Contact Us</a>
+		              <a href="http://localhost/home2.php">Home</a>
+                      <a href="http://localhost/aboutusnew.php">About Us</a>
+		              <a href="‪http://localhost/menu.php">menu</a>
+		              <a href="http://localhost/servicesnew.php">services</a>
+		              <a href="http://localhost/testing.php">Gallery</a>
+		              <a href="http://localhost/contactnew.php">Contact Us</a>
 	          </div>
 
 
@@ -324,12 +324,12 @@ h4{color: white;font-size: 23px;margin-top: 25px; font-family: sans-serif; }
 
 		<div class="content" id="second"><h4 style="margin-left: 100px;";>Quick Links</h4>
 			<div id="links">
-				<a href="">Home</a>
-				<a href="">About Us</a>
-				<a href="">Menu</a>
-				<a href="">Gallery</a>
-				<a href="">Services</a>
-				<a href="">Contact Us</a></div>
+		              <a href="http://localhost/home2.php">Home</a>
+                      <a href="http://localhost/aboutusnew.php">About Us</a>
+		              <a href="‪http://localhost/menu.php">menu</a>
+		              <a href="http://localhost/servicesnew.php">services</a>
+		              <a href="http://localhost/testing.php">Gallery</a>
+		              <a href="http://localhost/contactnew.php">Contact Us</a></div>
 		</div>
 
 		<div class="content"  id="third"><h4 style="margin-left: 40px;">Customer Reviews</h4>
