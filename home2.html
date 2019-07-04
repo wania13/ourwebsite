@@ -1,10 +1,11 @@
-
 <!DOCTYPE htlm>
 
 <html>
 <head>
-	<!--<link rel="stylesheet" type="text/css" href="home.css">-->
-	<!--<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> -->
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet"> 
+	 <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet"> 
 
 <style type="text/css">*
 {
@@ -12,6 +13,7 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
+body{background-color: black;}
 .navbar
 {
 	background-color: black;
@@ -19,6 +21,7 @@
 	z-index: 999;
 	width: 100%;
 	height: 10%;
+
 }
 .navbar a
 {
@@ -28,6 +31,10 @@
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 14px 28px;
+    padding-top: 20px;
+    font-size: 17px;
+
+
 }
 .navbar a:hover
 {
@@ -50,6 +57,7 @@
 	z-index: 999;
 	justify-content: flex-end;
 	width: 100%;
+
 }
 .togglearea label
 {
@@ -76,7 +84,7 @@
 	display: none;
 }
 #logo{
-	margin-right: 25%;
+	margin-right: 13%;
 }
 @media screen and (max-width:920px)
 {
@@ -107,7 +115,7 @@
 	{
 		display: flex;
 		position: absolute;
-		height:50%;
+		height:70%;
 		top:8%;
 
 	}
@@ -131,7 +139,7 @@ img {vertical-align: middle;}
 .slideshow-container {
   /*max-width: 1000px;*/
   width:100%;
-  height: 500px;
+  height: 640px;
   position: relative;
   margin: auto;
 }
@@ -194,6 +202,9 @@ h4{color: white;font-size: 23px;margin-top: 25px; font-family: sans-serif; }
 #MyDivName{width: 300px; height: 170px; color: white; margin-top: 25px; overflow: hidden;}
 #MyDivName p {margin-top: 20px;}
 
+
+
+
 #add{
 
 	display:flex;
@@ -216,6 +227,7 @@ h4{color: white;font-size: 23px;margin-top: 25px; font-family: sans-serif; }
 }
 
 
+
 /* you can change these media size according to your design */
 @media screen and (max-width:540px)
 {}
@@ -234,6 +246,7 @@ h4{color: white;font-size: 23px;margin-top: 25px; font-family: sans-serif; }
 
 
  <div id="container">
+
 	       <div class="togglearea">
 		          <label for="toggle">
 			           <span></span>
@@ -243,80 +256,124 @@ h4{color: white;font-size: 23px;margin-top: 25px; font-family: sans-serif; }
 		   <input type="checkbox" id="toggle">
 	         <div class="navbar">
 		          <img  id="logo" src="C:\logofinal.jpg" width="6%" height="95%" />
-		              <a href="C:\home.html">Home</a>
+		          
+		              <a href="C:\home2.html">Home</a>
                       <a href="C:\aboutusnew.html">About Us</a>
 		              <a href="‪#">menu</a>
 		              <a href="C:\servicesnew.html">services</a>
 		              <a href="C:\testing.html">Gallery</a>
 		              <a href="C:\contactnew.html">Contact Us</a>
-                      <a href="http://localhost/login.php">Login</a>
+                   	 <a  id="dashboard" href="http://localhost/login.php">login</a>
                  
 	          </div>
      
 
 <div class="slideshow-container">
 
+
+
 <div class="mySlides fade">
   <div class="numbertext">1 / 4</div>
-  <img src="C:\pic1.jpg" style="width:100%;height:500px">
-  <div class="text">Welcome to Ziyafat</div>
+ <img src="C:\candle.jpg" style="width:100%;height:640px">
+  <div class="text" style="font-size: 70px;font-weight: bold;  top: 30%;right: 23%;">Welcome to Ziyafat</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 4</div>
-  <img src="C:\pic4.jpg" style="width:100%;height:500px">
-  <div class="text">We Arrange</div>
+  <img src="C:\wedding.jpg" style="width:100%;height:640px">
+  <div class="text" style="color: white;font-weight: bold;top: 70%;">We Arrange</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 4</div>
-  <img src="C:\pic3.jpg" style="width:100%;height:500px">
-  <div class="text">Everything</div>
+  <img src="C:\pic3.jpg" style="width:100%;height:640px">
+  <div class="text" style="font-weight: bold; top: 65%;right: 30%;">Everything</div>
 </div>
     
 <div class="mySlides fade">
   <div class="numbertext">4 / 4</div>
-  <img src="C:\pic2.jpg" style="width:100%;height:500px">
-  <div class="text">For You</div>
-</div>    
+  <img src="C:\happy.jpg" style="width:100%;height:640px">
+  <div class="text"style="font-weight: bold;top: 49%;">For You</div>
 
+  
 </div>
-<br>
-
-<div style="text-align:center">
+ 
+ <div style="text-align:center; position :absolute; top:90%; left:50%;">
   <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span>
-    <span class="dot"></span>
-</div>
-  
-<div class="dcard">
-    <h4 style="font-family: serif;text-align: center;color:black;position: relative; top:80px">Our manifesto is to provide Superior Quality Hygienic food with extra emphasis on fair and factual quantity provision in terms of material and weight undeceptively. We always strive to serve with excellence in Wedding ceremonies, Business Sessions, Corporate Events, and other societal gatherings to make your events Exquisite and Memorable</h4>
-    <h4 style="color:firebrick;float:right;position: relative;top:100px"><a href="C:\aboutusnew.html">See more</a></h4>
-</div>
-     
+    <span class="dot"></span></div>
 
-<div class="dcard" style="width: 50%;heigt:300px;background-color:darksalmon">
-    <h4 style="font-family: serif;text-align: center;color:darkred;position: relative;color:black">Some of our Exotic Signature Dishes<br/><br/>Chiken Biryni<br/>Chicken Qourma<br/>Beef Biryani<br/>Gulaab Jamun<br/>BBQ<br/>HalwaPoori<br/></h4>
-</div> 
-     
-<div class="dcard" style="width:657px;heigt:300px;position: relative;bottom:274px;left:690px">
-    <h4 style="font-family: serif;text-align: center;color:darkred;position: relative; top:80px"></h4>
-</div> 
-     
-     
-<div class="dcard" style="background-color:#FC606C;height: 320px;position: relative;bottom:250px">
-    <h4 style="text-align: center;font-family: serif;position:relative;top:10px;color:white">Your Memories we Helped to Make</h4>
+</div>
+
+
+<div id="aboutlink" style="width: 100%;height: 230px;background-color: black;text-align: center;">
+	<h2 style="color: white;font-family: acme;text-align: center;letter-spacing: 5px;word-spacing:7px;padding: 35px;padding-top: 50px;">WE BELIEVE IN THESE WORDS</h2>
+    <p style="color:lightgrey;font-size: 20px;"> "Customers will never love a company until the employees love it first."
+-- Simon Sinek</p>
+    <button style="background-color: #F98D4B;height: 30px;width: 250px;margin-top: 20px;border-radius: 10%;"><a href="#" style="text-decoration: none;color: brown;font-size: 20px;font-weight: bold;">ABOUT US</a></button>
+</div>
+
+<div id="menulink" style="display: flex;">
+
+   <div id="menulink1" style="width: 50%;height: 500px;background-color: brown;text-align: center;background-image: url(C:/buffet.jpg);" >
+	   <button style="background-color:darksalmon;height: 200px;width: 270px;margin-top: 130px;border-radius: 10%;"><a href="#" style="text-decoration: none;color: #5e220a;font-size: 22px;font-weight: bolder;">VISIT OUR MENU FOR MORE INFORMATION</a></button>	
+     </div>
+
+
+
+
+    <div div id="menulink2" style="width: 50%;height: 500px;background-color: brown;text-align: center;" >
+	
+    </div>
+
+</div>
+
+
+<div  style="background-color:black;height: 320px;bottom:350px">
+    <h4 style="text-align: center;font-family: serif;position:relative;top:10px;color:#F98D4B;">Your Memories we Helped to Make</h4>
     <img src="C:\mehendi.jpg" alt="Avatar" style=" position: relative;left: 100px;top:50px;width:250px;height:200px">
     <img src="C:\wedding.jpg" alt="Avatar" style=" position: relative;left: 150px;top:50px; width:250px;height:200px">
     <img src="C:\valima.jpg" alt="Avatar" style=" position: relative;left: 200px;top:50px;width:250px;height:200px">
     <img src="C:\socialevents.jpg" alt="Avatar" style=" position:relative;left:250;top:50px; 170px; width:250px;height:200px">
-    <h4 style="color:darkred;float:right;position: relative;top:230px"><a href="C:\servicesnew.html">See more</a></h4>
+    <h4 style="color:#F98D4B;float:right;position: relative;top:230px;"><a style="text-decoration: none;color: orange;"href="C:\servicesnew.html">See more</a></h4>
 </div>
-     
-     
- </div>
-<br/><br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <footer>
 	<div id="uperfooter" style="display: flex;">
@@ -431,5 +488,3 @@ function showSlides() {
 </body>
 
 </html>
-
-
