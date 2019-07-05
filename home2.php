@@ -145,6 +145,7 @@ img {vertical-align: middle;}
   height: 640px;
   position: relative;
   margin: auto;
+
 }
 
 /* Caption text */
@@ -262,7 +263,7 @@ h4{color: white;font-size: 23px;margin-top: 25px; font-family: sans-serif; }
 		          
 		              <a href="http://localhost/home2.php">Home</a>
                       <a href="http://localhost/aboutusnew.php">About Us</a>
-		              <a href="‪http://localhost/menu.php">menu</a>
+                    <a href="http://localhost/menu.php">Menu</a>
 		              <a href="http://localhost/servicesnew.php">services</a>
 		              <a href="http://localhost/testing.php">Gallery</a>
 		              <a href="http://localhost/contactnew.php">Contact Us</a>
@@ -315,36 +316,36 @@ h4{color: white;font-size: 23px;margin-top: 25px; font-family: sans-serif; }
     <button style="background-color: #F98D4B;height: 30px;width: 250px;margin-top: 20px;border-radius: 10%;"><a href="http://localhost/aboutusnew.php" style="text-decoration: none;color: brown;font-size: 20px;font-weight: bold;">ABOUT US</a></button>
 </div>
 
-<div id="menulink" style="display: flex;">
+<div id="menulink" style="display: flex;background-image: url(buffet.jpg);backgroumd-repeat:no-repeat;background-size:cover;">
 
-   <div id="menulink1" style="width: 50%;height: 500px;background-color: brown;text-align: center;background-image: url(buffet.jpg);" >
+   <div id="menulink1" style="width: 50%;height: 500px;text-align: center;" >
 	   <button style="background-color:darksalmon;height: 200px;width: 270px;margin-top: 130px;border-radius: 10%;"><a href="http://localhost/menu.php" style="text-decoration: none;color: #5e220a;font-size: 22px;font-weight: bolder;">VISIT OUR MENU FOR MORE INFORMATION</a></button>	
      </div>
     
   
     
     
-<div div id="menulink2" style="width: 50%;height: 500px;background-color: brown;text-align: center;" >
+<div div id="menulink2" style="width: 50%;height: 500px;text-align: center;margin-top:30px;" >
 
-<div class="slideshow-container1" style="width:100%">
+<div class="slideshow-container1" style="width:90%;" >
 <div class="mySlides1">
   <div class="numbertext1">1 / 4</div>
-  <img src="offer1.jpeg" style='width:100%;height: 500px'>
+  <img src="offer1.jpeg" style='width:100%;height: 450px'>
 </div>
 
 <div class="mySlides1">
   <div class="numbertext1">2 / 4</div>
-  <img src="offer3.jpeg" style="width:100%;height: 500px">
+  <img src="offer3.jpeg" style="width:100%;height: 450px">
 </div>
 
 <div class="mySlides1">
   <div class="numbertext1">3 / 4</div>
-  <img src="offer5.jpeg" style="width:100%;height: 500px">
+  <img src="offer5.jpeg" style="width:100%;height: 450px">
 </div>
     
 <div class="mySlides1">
   <div class="numbertext1">4 / 4</div>
-  <img src="offer6.jpeg" style="width:100%;height: 500px"> 
+  <img src="offer6.jpeg" style="width:100%;height: 450px"> 
 </div>
  
  <div style="text-align:center; position :relative">
@@ -389,7 +390,7 @@ h4{color: white;font-size: 23px;margin-top: 25px; font-family: sans-serif; }
       <div id="links">
 		              <a href="http://localhost/home2.php">Home</a>
                       <a href="http://localhost/aboutusnew.php">About Us</a>
-		              <a href="‪http://localhost/menu.php">menu</a>
+          <a href="http://localhost/menu.php">Menu</a>
 		              <a href="http://localhost/servicesnew.php">services</a>
 		              <a href="http://localhost/testing.php">Gallery</a>
 		              <a href="http://localhost/contactnew.php">Contact Us</a></div>
